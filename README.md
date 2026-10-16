@@ -24,27 +24,3 @@ A high-performance, memory-efficient ETL (Extract, Transform, Load) pipeline bui
 Пример работы пайплайна в консоли (обработка более 1 млн записей за 26 секунд):
 
 ![Pipeline Execution Output](terminal_output.png)
-
-```text
-============================================================
-☑ ABR DATA FILTERING & ETL PIPELINE
-============================================================
-
-[INFO] Parsing and filtering: 20261014_Public01.xml
-[DEBUG] [20261014_Public01.xml] Processed:   100,000 | Matched: 1,487
-[DEBUG] [20261014_Public01.xml] Processed:   200,000 | Matched: 2,702
-[DEBUG] [20261014_Public01.xml] Processed:   300,000 | Matched: 4,141
-[DEBUG] [20261014_Public01.xml] Processed:   400,000 | Matched: 5,385
-[DEBUG] [20261014_Public01.xml] Processed:   500,000 | Matched: 6,784
-[DEBUG] [20261014_Public01.xml] Processed:   600,000 | Matched: 8,004
-[DEBUG] [20261014_Public01.xml] Processed:   700,000 | Matched: 9,311
-[DEBUG] [20261014_Public01.xml] Processed:   800,000 | Matched: 10,649
-[DEBUG] [20261014_Public01.xml] Processed:   900,000 | Matched: 11,838
-[DEBUG] [20261014_Public01.xml] Processed: 1,000,000 | Matched: 13,199
-[SUCCESS] Finished 20261014_Public01.xml. Total processed: 1,030,200, Filtered & Matched: 13,567
-
-[INFO] Exporting clean filtered TSV file to: abr_filtered_output.tsv
-[SUCCESS] Export complete. Total filtered rows in spreadsheet: 13,567
-============================================================
-☑ Finished in 26.07 seconds.
-============================================================
