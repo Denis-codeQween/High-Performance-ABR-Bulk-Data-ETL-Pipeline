@@ -42,5 +42,5 @@ Console benchmark demonstrating streaming extraction of **1,000,000+ XML records
 
 3. **Run the streaming ETL pipeline:**
    ```bash
-   python main.py
+   python run_extractor.py
    ```
