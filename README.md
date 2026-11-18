@@ -21,6 +21,26 @@ A high-performance, memory-efficient ETL (Extract, Transform, Load) pipeline bui
 ---
 
 ## 💻 Execution Output & Performance
-Пример работы пайплайна в консоли (обработка более 1 млн записей за 26 секунд):
+Console benchmark demonstrating streaming extraction of **1,000,000+ XML records in 26 seconds**:
 
 ![Pipeline Execution Output](terminal_output.png)
+
+---
+
+## 🚀 Quick Start
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Denis-codeQween/High-Performance-ABR-Bulk-Data-ETL-Pipeline.git
+   cd High-Performance-ABR-Bulk-Data-ETL-Pipeline
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Run the streaming ETL pipeline:**
+   ```bash
+   python main.py
+   ```
